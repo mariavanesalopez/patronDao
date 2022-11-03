@@ -1,0 +1,224 @@
+ERROR   2022-11-02 22:58:21,445 [main] Main  - error !!
+ INFO    2022-11-02 22:58:21,447 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 22:58:21,448 [main] Main  - Esto es un error
+ ERROR   2022-11-02 23:19:45,043 [main] Main  - error !!
+ INFO    2022-11-02 23:19:45,047 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 23:19:45,047 [main] Main  - Esto es un error
+ ERROR   2022-11-02 23:29:00,153 [main] Main  - error !!
+ INFO    2022-11-02 23:29:00,156 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 23:29:00,156 [main] Main  - Esto es un error
+ ERROR   2022-11-02 23:29:37,796 [main] Main  - error !!
+ org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Maria Vanesa/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Maria Vanesa/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+	at org.h2.mvstore.db.Store.<init>(Store.java:145)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at Main.main(Main.java:16)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Maria Vanesa/test.mv.db [2.1.214/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:178)
+	at org.h2.mvstore.FileStore.open(FileStore.java:128)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+	at org.h2.mvstore.db.Store.<init>(Store.java:136)
+	... 10 more
+INFO    2022-11-02 23:29:37,802 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 23:29:37,803 [main] Main  - Esto es un error
+ ERROR   2022-11-02 23:33:32,978 [main] Main  - error !!
+ org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Maria Vanesa/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Maria Vanesa/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+	at org.h2.mvstore.db.Store.<init>(Store.java:145)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at Main.main(Main.java:17)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Maria Vanesa/test.mv.db [2.1.214/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:178)
+	at org.h2.mvstore.FileStore.open(FileStore.java:128)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+	at org.h2.mvstore.db.Store.<init>(Store.java:136)
+	... 10 more
+INFO    2022-11-02 23:33:32,986 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 23:33:32,986 [main] Main  - Esto es un error
+ ERROR   2022-11-02 23:34:00,490 [main] Main  - error !!
+ org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Maria Vanesa/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Maria Vanesa/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+	at org.h2.mvstore.db.Store.<init>(Store.java:145)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at Main.main(Main.java:17)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Maria Vanesa/test.mv.db [2.1.214/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:178)
+	at org.h2.mvstore.FileStore.open(FileStore.java:128)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+	at org.h2.mvstore.db.Store.<init>(Store.java:136)
+	... 10 more
+INFO    2022-11-02 23:34:00,499 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 23:34:00,499 [main] Main  - Esto es un error
+ ERROR   2022-11-02 23:34:23,069 [main] Main  - error !!
+ org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/Users/Maria Vanesa/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/Maria Vanesa/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:168)
+	at org.h2.mvstore.db.Store.<init>(Store.java:145)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at Main.main(Main.java:17)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Maria Vanesa/test.mv.db [2.1.214/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:178)
+	at org.h2.mvstore.FileStore.open(FileStore.java:128)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4082)
+	at org.h2.mvstore.db.Store.<init>(Store.java:136)
+	... 10 more
+INFO    2022-11-02 23:34:23,077 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 23:34:23,077 [main] Main  - Esto es un error
+ ERROR   2022-11-02 23:36:35,603 [main] Main  - error !!
+ org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1375)
+	at org.h2.jdbc.JdbcConnection.getClientInfo(JdbcConnection.java:1632)
+	at Main.main(Main.java:19)
+INFO    2022-11-02 23:36:35,608 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 23:36:35,608 [main] Main  - Esto es un error
+ ERROR   2022-11-02 23:37:16,081 [main] Main  - error !!
+ java.lang.ClassCastException: class java.util.Properties cannot be cast to class java.sql.Connection (java.util.Properties is in module java.base of loader 'bootstrap'; java.sql.Connection is in module java.sql of loader 'platform')
+	at Main.main(Main.java:19)
+INFO    2022-11-02 23:37:16,085 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 23:37:16,085 [main] Main  - Esto es un error
+ INFO    2022-11-02 23:38:47,140 [main] Main  - {numServers=0}
+ INFO    2022-11-02 23:38:47,143 [main] Main  - Esto es un mensaje informativo
+ ERROR   2022-11-02 23:38:47,144 [main] Main  - Esto es un error
+ ERROR   2022-11-03 13:25:28,581 [main] main.dao.impl.IDaoPatientH2Impl  - error !!
+ org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PATIENTE" no encontrada
+Table "PATIENTE" not found; SQL statement:
+INSERT INTO patiente (id, name, lastName, address, dni, fechaAlta) VALUES (?,?,?,?,?,?) [42102-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8398)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8369)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8358)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8328)
+	at org.h2.command.Parser.parseInsert(Parser.java:1632)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at main.dao.impl.IDaoPatientH2Impl.guardarPatient(IDaoPatientH2Impl.java:37)
+	at main.service.PatientService.guardar(PatientService.java:15)
+	at Main.main(Main.java:16)
+INFO    2022-11-03 13:25:28,588 [main] main.dao.impl.IDaoPatientH2Impl  - Esto es un mensaje informativo
+ ERROR   2022-11-03 13:25:28,588 [main] main.dao.impl.IDaoPatientH2Impl  - Esto es un error
+ ERROR   2022-11-03 13:28:58,492 [main] main.dao.impl.IDaoPatientH2Impl  - error !!
+ org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PATIENTE" no encontrada
+Table "PATIENTE" not found; SQL statement:
+INSERT INTO patiente (id, name, lastName, address, dni, fechaAlta) VALUES (?,?,?,?,?,?) [42102-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8398)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8369)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8358)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8328)
+	at org.h2.command.Parser.parseInsert(Parser.java:1632)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at main.dao.impl.IDaoPatientH2Impl.guardarPatient(IDaoPatientH2Impl.java:37)
+	at main.service.PatientService.guardar(PatientService.java:15)
+	at Main.main(Main.java:16)
+INFO    2022-11-03 13:28:58,500 [main] main.dao.impl.IDaoPatientH2Impl  - Esto es un mensaje informativo
+ ERROR   2022-11-03 13:28:58,500 [main] main.dao.impl.IDaoPatientH2Impl  - Esto es un error
+ ERROR   2022-11-03 13:44:19,570 [main] main.dao.impl.IDaoPatientH2Impl  - error !!
+ org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "PATIENTE" no encontrada
+Table "PATIENTE" not found; SQL statement:
+INSERT INTO patiente (id, name, lastName, address, dni, fechaAlta) VALUES (?,?,?,?,?,?) [42102-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8398)
+	at org.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:8369)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8358)
+	at org.h2.command.Parser.readTableOrView(Parser.java:8328)
+	at org.h2.command.Parser.parseInsert(Parser.java:1632)
+	at org.h2.command.Parser.parsePrepared(Parser.java:814)
+	at org.h2.command.Parser.parse(Parser.java:689)
+	at org.h2.command.Parser.parse(Parser.java:661)
+	at org.h2.command.Parser.prepareCommand(Parser.java:569)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:92)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at main.dao.impl.IDaoPatientH2Impl.guardarPatient(IDaoPatientH2Impl.java:37)
+	at main.service.PatientService.guardar(PatientService.java:15)
+	at Main.main(Main.java:16)
+INFO    2022-11-03 13:44:19,576 [main] main.dao.impl.IDaoPatientH2Impl  - Esto es un mensaje informativo
+ ERROR   2022-11-03 13:44:19,576 [main] main.dao.impl.IDaoPatientH2Impl  - Esto es un error
+ 
